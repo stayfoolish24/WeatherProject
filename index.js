@@ -1,9 +1,7 @@
 /** @format */
 
 import { AppRegistry } from "react-native"
-// import App from './App';
-import WeatherProject from "./WeatherProject"
-// import {name as appName} from './on';
+import App from "./smarter-weather/weather_project"
+import { name as appName } from "./app.json"
 
-// AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent("WeatherProject", () => WeatherProject)
+AppRegistry.registerComponent(appName, () => App)
